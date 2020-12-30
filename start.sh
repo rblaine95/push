@@ -1,7 +1,7 @@
 #!/bin/sh
 set -e
 
-timestamp=$(date -u +"%Y-%m-%dT%H:%M:%SZ")
+timestamp=$(date -u +"%Y-%m-%dT%H:%M:%S+00:00")
 
 INPUT_AUTHOR_EMAIL=${INPUT_AUTHOR_EMAIL:-'github-actions[bot]@users.noreply.github.com'}
 INPUT_AUTHOR_NAME=${INPUT_AUTHOR_NAME:-'github-actions[bot]'}
